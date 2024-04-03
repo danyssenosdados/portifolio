@@ -9,7 +9,7 @@ Neste portfólio, você encontrará uma variedade de projetos que demonstram min
 ## Estrutura do Projeto
 
 - `/projetos`: Este diretório contém os projetos que fiz, cada um em seu próprio subdiretório.
-- `/assets`: Aqui estão os arquivos de mídia, como imagens e vídeos, usados no portfólio.
+- `/assets`: Aqui estão os arquivos de mídia, como imagens e vídeos, codigos css e js usados no portfólio.
 - `README.md`: Este arquivo que você está lendo agora, fornecendo uma visão geral do portfólio e instruções de uso.
 
 ## Como Usar
