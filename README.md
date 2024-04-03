@@ -24,9 +24,9 @@ Você pode visualizar meu portfólio online em [link para o site do portfólio](
 
 - HTML
 - CSS
-- JavaScript
-- Frameworks (se aplicável, como React, Vue.js, etc.)
-- Bibliotecas (se aplicável, como Bootstrap, Tailwind CSS, etc.)
+- Python
+- PowerBI
+- SQL
 
 ## Como Contribuir
 
@@ -34,7 +34,7 @@ Se você quiser contribuir para meu portfólio, sinta-se à vontade para enviar 
 
 ## Contato
 
-Se você tiver alguma dúvida, sugestão ou apenas quiser entrar em contato, sinta-se à vontade para me enviar um e-mail em [seu@email.com](mailto:seu@email.com).
+Se você tiver alguma dúvida, sugestão ou apenas quiser entrar em contato, sinta-se à vontade para me enviar um e-mail em [danyelle.dados@gmail.com](mailto:seu@email.com).
 
 ## Licença
 
