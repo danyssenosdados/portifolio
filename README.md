@@ -1,7 +1,7 @@
 # Meu Portfólio
 
 Este é o repositório que contém meu portfólio pessoal, onde mostro meus projetos, habilidades e experiências.
----
+
 ## Visão Geral
 
 Neste portfólio, você encontrará uma variedade de projetos que demonstram minhas habilidades e conhecimentos em diferentes áreas. Cada projeto possui uma breve descrição e instruções sobre como visualizá-lo ou executá-lo.
