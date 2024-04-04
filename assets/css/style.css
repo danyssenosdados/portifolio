@@ -861,7 +861,7 @@ main {
 }
 
 .skill-progress-bg {
-  background: var(--jet);
+  background: var(--text-gradient-jet);
   width: 100%;
   height: 8px;
   border-radius: 10px;
