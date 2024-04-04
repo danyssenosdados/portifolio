@@ -1,7 +1,5 @@
 <?php
-// Carrega as variáveis de ambiente do arquivo .env
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/data-ny/portifolio/assets/php');
-$dotenv->load();
+
 
 // Incluir os arquivos da biblioteca PHPMailer
 require 'PHPMailer/src/PHPMailer.php';
@@ -26,14 +24,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = $_ENV['email_site']; // Usa a variável de ambiente EMAIL
-        $mail->Password = $_ENV['psw']; // Usa a variável de ambiente SENHA
+        $mail->Username = $_ENV['danyelle.dados@gmail.com']; // Usa a variável de ambiente EMAIL
+        $mail->Password = $_ENV['87214249Ad@']; // Usa a variável de ambiente SENHA
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
         
         // Configurações do remetente e destinatário
-        $mail->setFrom($_ENV['email_site'], 'Danyelle Melo'); // Usa a variável de ambiente EMAIL como remetente
-        $mail->addAddress($_ENV['psw']); // Usa a variável de ambiente EMAIL como destinatário
+        $mail->setFrom($_ENV['danyelle.dados@gmail.com'], 'Danyelle Melo'); // Usa a variável de ambiente EMAIL como remetente
+        $mail->addAddress($_ENV['87214249Ad@']); // Usa a variável de ambiente EMAIL como destinatário
         
         // Conteúdo do e-mail
         $mail->isHTML(false); // Define o conteúdo como texto plano
