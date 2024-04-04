@@ -861,12 +861,14 @@ main {
 }
 
 .skill-progress-bg {
-  background: linear-gradient(to right, white 0%, #ffc0cb 50%, pink 100%);
+  background: var(--jet);
+  width: 100%;
+  height: 8px;
+  border-radius: 10px;
 }
 
-
 .skill-progress-fill {
-  background: var(--text-gradient-jet);
+  background: var(--text-gradient-yellow);
   height: 100%;
   border-radius: inherit;
 }
