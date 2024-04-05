@@ -5,7 +5,7 @@
 /*---------------------------------------------------------------------------------------*/
   /* gradient */
 
-  --cor_fundo_imagens: linear-gradient(
+  --bg-gradient-onyx: linear-gradient(
     to bottom right, 
     hsl(240, 5%, 67%) 3%, 
     hsl(0, 40%, 65%) 97%
