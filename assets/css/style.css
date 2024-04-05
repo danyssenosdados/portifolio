@@ -30,10 +30,10 @@
     hsl(0, 0%, 25%) 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
-  --text-gradient-yellow: linear-gradient(
+  --linhas-anos: linear-gradient(
     to right, 
-    hsl(0, 50%, 65%) 50%, 
-    hsl(0, 50%, 65%) 50%
+    hsl(0, 70%, 65%) 50%, 
+    hsl(0, 70%, 65%) 50%
   );
 
 
@@ -48,8 +48,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --icons-marcacao: hsl(0, 40%, 70%);
-  --ponto-resume: hsl(0, 40%, 70%);
+  --icons-marcacao: hsl(0, 70%, 70%);
+  --ponto-resume: hsl(0, 70%, 70%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -236,7 +236,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--text-gradient-yellow);
+  background: var(--linhas-anos);
   border-radius: 3px;
 }
 
@@ -803,7 +803,7 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(--text-gradient-yellow);
+  background: var(--linhas-anos);
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
 }
@@ -847,7 +847,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: var(--text-gradient-yellow);
+  background: var(--linhas-anos);
   height: 100%;
   border-radius: inherit;
 }
