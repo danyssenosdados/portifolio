@@ -15,11 +15,11 @@
     hsla(240, 1%, 18%, 0.251) 0%, 
     hsla(240, 2%, 11%, 0) 100%
   ), hsl(240, 2%, 13%);
-  --bg-gradient-yellow-1: linear-gradient(
+  /*--bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
     hsl(0, 40%, 65%) 50%, 
     hsl(0, 40%, 65%) 50%
-  );
+  );*/
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
     hsla(45, 100%, 71%, 0.251) 0%, 
