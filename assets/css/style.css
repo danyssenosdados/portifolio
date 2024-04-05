@@ -45,8 +45,7 @@
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(231, 95%, 15%);
-  /*--smoky-black: hsl(0, 0%, 7%);*/
+  --fundo-geral: hsl(0, 0%, 7%);
   --white-1: hsl(0, 33%, 1%);
   --white-2: hsl(0, 0%, 98%);
   --icons-marcacao: hsl(0, 70%, 70%);
@@ -134,14 +133,14 @@ input, textarea {
 
 ::selection {
   background: var(--icons-marcacao);
-  color: var(--smoky-black);
+  color: var(--fundo-geral);
 }
 
 :focus { outline-color: var(--icons-marcacao); }
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: var(--fundo-geral); }
 
 
 
@@ -1758,10 +1757,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar { width: 20px; }
 
-  body::-webkit-scrollbar-track { background: var(--smoky-black); }
+  body::-webkit-scrollbar-track { background: var(--fundo-geral); }
 
   body::-webkit-scrollbar-thumb {
-    border: 5px solid var(--smoky-black);
+    border: 5px solid var(--fundo-geral);
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
     box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
