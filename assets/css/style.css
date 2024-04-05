@@ -5,7 +5,7 @@
 /*---------------------------------------------------------------------------------------*/
   /* gradient */
 
-  --bg-gradient-onyx: linear-gradient(
+  --cor-fundo-imagens: linear-gradient(
     to bottom right, 
     hsl(240, 5%, 67%) 3%, 
     hsl(0, 40%, 65%) 97%
@@ -317,7 +317,7 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
+  background: var(--cor-fundo-imagens);
   border-radius: 20px;
 }
 
@@ -573,7 +573,7 @@ main {
   top: 0;
   left: 0;
   transform: translate(15px, -25px);
-  background: var(--bg-gradient-onyx);
+  background: var(--cor-fundo-imagens);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
 }
@@ -681,7 +681,7 @@ main {
 .modal-close-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .modal-avatar-box {
-  background: var(--bg-gradient-onyx);
+  background: var(--cor-fundo-imagens);
   width: max-content;
   border-radius: 14px;
   margin-bottom: 15px;
