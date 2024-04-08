@@ -832,7 +832,7 @@ main {
 .skill .title-wrapper {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   margin-bottom: 8px;
 }
 
@@ -850,7 +850,7 @@ main {
 
 .styled-title::before {
   content: "\2022"; /* Bullet point character */
-  margin-right: 8px; /* Adjust margin as needed */
+  margin-right: 10px; /* Adjust margin as needed */
   font-size: 1.2rem; /* Adjust font size as needed */
 }
 
