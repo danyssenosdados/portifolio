@@ -1,342 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Portfolio</title>
 
-  <!--
-    - favicon
-  -->
+  <!--Favicon - pequeno icone na aba do navegador-->
+
   <link rel="shortcut icon" href="./assets/images/avatar1.png" type="image/x-icon">
+  <!----------------------------------------------------------------------------------------------->
 
-  <!--
-    - custom css link
-  -->
+
+  <!--Folha do CSS-->
+
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!----------------------------------------------------------------------------------------------->
 
-  <!--
-    - google font link
-  -->
+  <!--Links google para melhorar carregamento da página-->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+  <link rel="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!----------------------------------------------------------------------------------------------->
 </head>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/avatar1.png" alt="Danyelle Melo" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Danyelle Melo">Danyelle Melo</h1>
-
-          <p class="title">Data Analyst</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:danyelle.dados@gmail.com" class="contact-link">danyelle.dados@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+5581997909873" class="contact-link">+55 (81) 99790-9873</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">April 17, 1993</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Jaboatão dos Guararapes, Pernambuco, BR</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/danyellemelo" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://github.com/data-ny" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-        </ul>
-        
-
-      </div>
-
-    </aside>
-
-
-<!--------------------------------------------FIM ARRA LATERAL----------------------------------------------------------------------->
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            My name is Danyelle Melo and I am a Data Technician with experience in data analysis, BI, 
-            data extraction, automation and workflow management. 
-            I am passionate about transforming raw data into actionable insights that drive business success. 
-        </p>
-
-        <p>
-            I am a dedicated, proactive professional with a great capacity for learning. 
-            I have excellent communication and teamwork skills. I always look for new challenges and 
-            opportunities to develop my skills and contribute to the company's growth.  
-        </p>
-        <p>
-            If you are looking for an experienced Data Technician who is passionate about what she does, contact me! 
-        </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+  <main> <!-- #MAIN -->
+     <!------------------------------------- #SIDEAR - BARRA LATERAL ESQUERDA---------------------------------------------------------------------> 
+
+     <aside class="sidebar" data-sidebar>
+         <!--Informações superiores da barra lateral-->  
+
+          <div class="sidebar-info">
+
+              <!--Figura-->
+              <figure class="avatar-box">
+                  <img src="./assets/images/avatar1.png" alt="Danyelle Melo" width="80">
+              </figure>
+
+              <!--Nome e funçao-->
+              <div class="info-content">
+                  <h1 class="name" title="Danyelle Melo">Danyelle Melo</h1>
+                  <p class="title">Data Analyst</p>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+              <!--Botão para exibir o sidbar em dispositivos móveis-->
+              <button class="info_more-btn" data-sidebar-btn> <!--botão de mais informações-->
+                  <span>Show Contacts</span> <!--essa tag <span> é utilizada para lista suspensa-->
+                  <ion-icon name="chevron-down"></ion-icon> <!--essa tag <ion-icon> é utilizada para exibir icone de seta para baixo-->
+              </button>
+          </div>
+          <!-------------------------------------------------------------------------------------------------------------------------------->
 
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
+          <!--mais informações-->
+          <div class="sidebar-info_more"> 
+              <!--separador-->
+              <div class="separator"></div> <!--linha para separar o (sidebar-info/sidear-info_more) com stilo definido no css-->
 
-            </li>
+              <!--icones de informações pessoais-->
 
-            <li class="service-item">
+              <!--Lista contatos-->
+              <ul class="contacts-list">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+                  <!--icone de e-mail-->
+                  <li class="contact-item"> 
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                      <!--icone-->
+                      <div class="icon-box">
+                          <ion-icon class="mail-outline"></ion-icon>
+                      </div>
 
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
+                      <!--informação do icone-->
+                      <div class="contact-info">
+                          <p class="contact-title">Email</p>
 
-            </li>
+                          <a href="mailto:danyelle.dados@gmail.com" class="contacts-link">danyelle.dados@gmail.com</a>
+                      </div>
+                  </li> 
+                  <!--------------------------------------------------------------------------------------------------------------->
 
-            <li class="service-item">
+                  <!--icone do telefone-->
+                  <li class="contact-item"> 
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
+                      <!--icone-->
+                      <div class="icon-box">
+                          <ion-icon class="phone-portrait-outline"></ion-icon>
+                      </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                      <!--informação do icone-->
+                      <div class="contact-info">
+                          <p class="contact-title">Phone</p>
 
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
+                          <a href="tel:+5581997909873" class="contacts-link">+55 (81) 99790-9873</a>
+                      </div>
+                  </li>
+                  <!--------------------------------------------------------------------------------------------------------------->
 
-            </li>
+                  <!--icone data nascimento-->
+                  <li class="contact-item"> 
 
-            <li class="service-item">
+                      <!--icone-->
+                      <div class="icon-box">
+                          <ion-icon class="calendar-outline"></ion-icon>
+                      </div>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
+                      <!--informação do icone-->
+                      <div class="contact-info">
+                          <p class="contact-title">Birthday</p>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+                          <time datetime="1993-04-17">April 17, 1993</time>
+                      </div>
+                  </li>
+                  <!--------------------------------------------------------------------------------------------------------------->
 
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
+                  <!--icone localização-->
+                  <li class="contact-item"> 
 
-            </li>
+                      <!--icone-->
+                      <div class="icon-box">
+                          <ion-icon class="location-outline"></ion-icon>
+                      </div>
 
-          </ul>
+                      <!--informação do icone-->
+                      <div class="contact-info">
+                          <p class="contact-title">Location</p>
 
-        </section>
+                         <address>Jaboatão dos Guararapes, Pernambuco - Brazil</address>
+                      </div>
+                  </li>
+              </ul>
+              <!--------------------------------------------------------------------------------------------------------------->
 
+              <div class="separator"></div> <!-- linha parar separar os icones de contatos/ linkedin e github-->
+              <!--------------------------------------------------------------------------------------------------------------->
 
-        <!--
-          - testimonials
-        -->
+              <ul class="social-list">
+                  <!--icone linkedin-->
+                  <li class="social-item">
+                      <a href="https://www.linkedin.com/in/danyellemelo" class="social-link">
+                          <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                  </li>
 
-        <section class="testimonials">
+                  <!--icone github-->
+                  <li class="social-item">
+                      <a href="https://github.com/data-ny" class="social-link">
+                          <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </aside>
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+     <!--///////////////////////////////////////////// FIM DA BARRA LATERAL //////////////////////////////////////////////-->
 
-          <ul class="testimonials-list has-scrollbar">
+     <!-------------------------------------Inicio do conteudo principal - #main-content ----------------------------------------------------------> 
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+      <div class="main-content">
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
+          <!----------------------------------------#NAVBAR - MENU--------------------------->
+          <nav class="navbar">
+              <ul class="navbar-list">
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                  <!--botão About-->
+                  <li class="navbar-item">
+                      <button class="navbar-link active" data-sidebar-link> About</button>
+                  </li>
 
-                <div class="testimonials-text" data-testimonials-text>
+                  <!--botão Resume-->
+                  <li class="navbar-item">
+                      <button class="navbar-link active" data-sidebar-link>Resume</button>
+                  </li>
+
+                  <!--botão Projetos-->
+                  <li class="navbar-item">
+                      <button class="navbar-link" data-sidebar-link>Portifolio</button>
+                  </li>
+
+                  <!--botão Blog-->
+                  <li class="navbar-item">
+                      <button class="navbar-link active" data-sidebar-link>Blog</button>
+                  </li>
+
+                  <!--botão Contact-->
+                  <li class="navbar-item">
+                      <button class="navbar-link active" data-sidebar-link>Contact</button>
+                  </li>
+              </ul>
+          </nav>
+
+          <!-------------------------------------FIM DO MENU-------------------------------------------------------------------------->
+
+          <!--------------------------------INFORMAÇÕES DO MENU------------------------------------------------->
+
+          <!--****** ABOUT *****-->
+          <article class="about active" data-page="about"> <!--toda página se inicia com um <article></article>-->
+             
+              <!--titulo da pagina About-->
+              <head>
+                  <h2 class="h2 article-title">About Me</h2>
+              </head>
+
+              <!--texto sobre você-->
+              <section class="about-text">
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                      My name is Danyelle Melo and I am a Data Technician with experience in data analysis, BI, 
+                      data extraction, automation and workflow management. 
+                      I am passionate about transforming raw data into actionable insights that drive business success. 
                   </p>
-                </div>
 
-              </div>
-            </li>
+                  <p>
+                      I am a dedicated, proactive professional with a great capacity for learning. 
+                      I have excellent communication and teamwork skills. I always look for new challenges and 
+                      opportunities to develop my skills and contribute to the company's growth.  
+                  </p>
+                  <p>
+                      If you are looking for an experienced Data Technician who is passionate about what she does, contact me! 
+                  </p>
 
-          <ul>
+              </section>
 
-        </section>
+              <!-- service -->
 
+              <section class="service">
 
-        <!--
-          - testimonials modal
-        -->
+                  <!-- segundo titulo da página-->
+                  <h3 class="h3 service-title">what i'm doing</h3>
 
+                  <!-- LISTA dos meus sprojetos em processo -->
+                  <ul class="service-list has-scrollbar">
+
+                      <li class="service-item">
+
+                          <!-- icone do primeiro projeto -->
+                          <div class="service-icon-box">
+                              <img src="./assets/images/projeto-placa-icon.png" alt="design icon" width="40">
+                          </div>
+
+                          <!-- caixa com o titulo e descrição -->
+                          <div class="service-content-box">
+                              <h4 class="service-item-title">Board Design</h4>
+
+                              <P class="service-item-text">
+                               The Placa Project aims to develop a complete system for the detection and recognition of passenger car license plates in condominiums, automating the entry and access authorization process.
+                              </P>
+                          </div>
+
+                      </li>
+
+                  </ul>
+              </section>
+
+              <!-- testimonials -->
+              <section class="Testimonials">
+                  <!-- terceiro título - testemunhas -->
+                  <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                  <!-- lista de testemunhas com uma barra de rolagem -->
+                  <ul class="testimonials-list has-scrollbar">
+                      <!-- item da lista -->
+                      <li class="testimonials-item">
+
+                          <div class="content-card" data-testimonials-item>
+                              <!-- figura da testemunha -->
+                              <figure class="testimonials-avatar-box">
+                                  <img src="#" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                              </figure>
+
+                              <!-- nome da testemunha -->
+                              <h4 class="h4 testimonials-item-title" data-testimonials-title>Amanda Silva</h4>
+
+                              <!-- comentário da testemunha -->
+                              <div class="testimonials-text" data-testimonials-text>
+                                  <p>
+                                      Danyelle is very creative in her projects. I always expect something more than planned. We created a database on beverage storage and dispatch and I was surprised by a panel to facilitate understanding. 
+                                  </p>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+              </section>
+
+        <!-- testimonials modal -->
         <div class="modal-container" data-modal-container>
 
           <div class="overlay" data-overlay></div>
@@ -349,7 +297,7 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="#" alt="Daniel lewis" width="80" data-modal-img>
               </figure>
 
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
@@ -374,153 +322,149 @@
             </div>
 
           </section>
+        </article>
+          <!---------------------------------------------------------FIM DO ABOUT ----------------------------------------------------------------->
 
-        </div>
-      </article>
+          <!-------------------------------------- INICIO DO RESUME ------------------------------------------------------------------------------->
 
+          <article class="resume" data-page="resume">
+              <!-- titulo da pagina resumo -->
+              <header>
+                  <h2 class="h2 article-title">Resume</h2>
+              </header>
 
+              <!-- linha do tempo da formação -->
+              <section class="timeline">
 
+                  <!-- icone do livro -->
+                  <div class="title-wrapper">
+                      <div class="icon-box">
+                          <ion-icon name="book-outline"></ion-icon>
+                      </div>
+                      
+                      <!-- titulo do icone ao lado -->
+                      <h3 class="h3">Education</h3>
+                  </div>
 
+                  <ol class="timeline-list">
 
-      <!--
-        - #RESUME
-      -->
+                      <!-- segunda formação -->
+                      <li class="timeline-item">
 
-      <article class="resume" data-page="resume">
-        <!-- titulo da pagina resumo -->
-        <header>
-            <h2 class="h2 article-title">Resume</h2>
-        </header>
+                          <h4 class="h4 timeline-item-title">Cruzeiro do Sul Virtual</h4>
+                          <span>2021 - 2023</span>
 
-        <!-- linha do tempo da formação -->
-        <section class="timeline">
+                          <p class="timeline-text">
+                              Postgraduate Lato Sensu - Specialization, Database and business intelligence.
+                          </p>
 
-            <!-- icone do livro -->
-            <div class="title-wrapper">
-                <div class="icon-box">
-                    <ion-icon name="book-outline"></ion-icon>
-                </div>
-                
-                <!-- titulo do icone ao lado -->
-                <h3 class="h3">Education</h3>
-            </div>
+                      </li>
+                      <!-- primeira formação -->
+                      <li class="timeline-item">
 
-            <ol class="timeline-list">
-
-                <!-- segunda formação -->
-                <li class="timeline-item">
-
-                    <h4 class="h4 timeline-item-title">Cruzeiro do Sul Virtual</h4>
-                    <span>2021 - 2023</span>
-
-                    <p class="timeline-text">
-                        Postgraduate Lato Sensu - Specialization, Database and business intelligence.
-                    </p>
-
-                </li>
-                <!-- primeira formação -->
-                <li class="timeline-item">
-
-                    <h4 class="h4 timeline-item-title">Universidade Federal Rural de Pernambuco</h4>
-      
-                    <span>2014 — 2019</span>
-      
-                    <p class="timeline-text">
-                      Bachelor's degree, business administration. 
-                    </p>
-      
-                  </li>
-            </ol>
-        </section>
+                          <h4 class="h4 timeline-item-title">Universidade Federal Rural de Pernambuco</h4>
+            
+                          <span>2014 — 2019</span>
+            
+                          <p class="timeline-text">
+                            Bachelor's degree, business administration. 
+                          </p>
+            
+                        </li>
+                  </ol>
+              </section>
 
 
-        <!-- linha do tempo das experiências -->
-        <section class="timeline">
+              <!-- linha do tempo das experiências -->
+              <section class="timeline">
 
-            <!-- icone do livro -->
-            <div class="title-wrapper">
-                <div class="icon-box">
-                    <ion-icon name="book-outline"></ion-icon>
-                </div>
-                
-                <!-- titulo do icone ao lado -->
-                <h3 class="h3">Experience</h3>
-            </div>
+                  <!-- icone do livro -->
+                  <div class="title-wrapper">
+                      <div class="icon-box">
+                          <ion-icon name="book-outline"></ion-icon>
+                      </div>
+                      
+                      <!-- titulo do icone ao lado -->
+                      <h3 class="h3">Experience</h3>
+                  </div>
 
-            <ol class="timeline-list">
+                  <ol class="timeline-list">
 
-                <!-- ultima experiencia -->
-                <li class="timeline-item">
+                      <!-- ultima experiencia -->
+                      <li class="timeline-item">
 
-                    <h4 class="h4 timeline-item-title">Data technician</h4>
-                    <span>2022 — Present</span>
+                          <h4 class="h4 timeline-item-title">Data technician</h4>
+                          <span>2022 — Present</span>
 
-                    <p class="timeline-text">
-                        G4F - Great 4 the Future, Client CHESF.
-                    </p>
+                          <p class="timeline-text">
+                              G4F - Great 4 the Future, Client CHESF.
+                          </p>
 
-                </li>
-                <!-- primeira experiencia -->
-                <li class="timeline-item">
+                      </li>
+                      <!-- primeira experiencia -->
+                      <li class="timeline-item">
 
-                    <h4 class="h4 timeline-item-title">Invoicing</h4>
-      
-                    <span>2015 — 2022</span>
-      
-                    <p class="timeline-text">
-                        Solivetti Comercio e Serviços LTDA.
-                    </p>
-      
-                  </li>
-            </ol>
-        </section>
+                          <h4 class="h4 timeline-item-title">Invoicing</h4>
+            
+                          <span>2015 — 2022</span>
+            
+                          <p class="timeline-text">
+                              Solivetti Comercio e Serviços LTDA.
+                          </p>
+            
+                        </li>
+                  </ol>
+              </section>
 
 
-        <!-- section Skills -->
-        <section class="skill">
-            <h3 class="h3 skills-title">My Skills</h3>
+              <!-- section Skills -->
+              <section class="skill">
+                  <h3 class="h3 skills-title">My Skills</h3>
 
-            <ul class="skills-list content-card">
-                <!-- PONTO 1 -->
-                <li class="skills-item">
-                    <div class="title-wrapper">
-                        <h5 class="h5 styled-title">Data analysis</h5>
-                        <p class="title"> 
-                          BI,data extraction with VBA and Python from SAP PM, selects in PostgreSQL, creation of dashboards and reports.
-                        </p> 
-                    </div>
-                </li>
-                <!-- PONTO 2 -->
-                <li class="skills-item">
-                    <div class="title-wrapper">
-                      <h5 class="h5 styled-title">Automation</h5>
-                        <p> 
-                          Creating scripts in Python to automate repetitive tasks.
-                        </p>  
-                    </div>          
-                </li>
-                <!-- PONTO 3 -->
-                <li class="skills-item">
-                    <div class="title-wrapper">
-                      <h5 class="h5 styled-title">Workflow management</h5>
-                        <p>
-                          Creating and managing workflows in Airflow.
-                        </p>
-                    </div>
-                </li>
-                <!-- PONTO 4 -->
-                <li class="skills-item">
-                    <div class="title-wrapper">
-                      <h5 class="h5 styled-title">Proficiency in tools</h5>
-                        <p>
-                            SQL, Python, VBA, SAP PM, PostgreSQL, Airflow, Tableau, Power BI.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-    </article>
+                  <ul class="skills-list content-card">
+                      <!-- PONTO 1 -->
+                      <li class="skills-item">
+                          <div class="title-wrapper">
+                              <h5 class="h5 styled-title">Data analysis</h5>
+                              <p> 
+                                  BI,data extraction with VBA and Python from SAP PM, selects in PostgreSQL, creation of dashboards and reports.
+                              </p> 
+                          </div>
+                      </li>
+                      <!-- PONTO 2 -->
+                      <li class="skills-item">
+                          <div class="title-wrapper">
+                            <h5 class="h5 styled-title">Automation</h5>
+                              <p> 
+                                  Creating scripts in Python to automate repetitive tasks.
+                              </p>  
+                          </div>          
+                      </li>
+                      <!-- PONTO 3 -->
+                      <li class="skills-item">
+                          <div class="title-wrapper">
+                            <h5 class="h5 styled-title">Workflow management</h5>
+                              <p>
+                                  Creating and managing workflows in Airflow.
+                              </p>
+                          </div>
+                      </li>
+                      <!-- PONTO 4 -->
+                      <li class="skills-item">
+                          <div class="title-wrapper">
+                            <h5 class="h5 styled-title">Proficiency in tools</h5>
+                              <p>
+                                  SQL, Python, VBA, SAP PM, PostgreSQL, Airflow, Tableau, Power BI.
+                              </p>
+                          </div>
+                      </li>
+                  </ul>
+              </section>
+          </article>
 
+          <!-------------------------FIM DO RESUMO ------------------------------------------------------------------------------------->
+
+          <!--------------------------------------------INICIO DO PORTIFOLIO ----------------------------------------------------------->
 
       <!--
         - #PORTFOLIO
