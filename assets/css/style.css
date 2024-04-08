@@ -845,7 +845,7 @@ main {
 .styled-title {
   display: flex;
   align-items: center;
-  margin-bottom: 5px; /* Adjust margin as needed */
+  margin-bottom: 3px; /* Adjust margin as needed */
 }
 
 .styled-title::before {
