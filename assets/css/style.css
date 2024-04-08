@@ -843,7 +843,7 @@ main {
 }
 
 .styled-title {
-  display: flex;
+  width: max-content;
   align-items: center;
   margin-bottom: 3px; /* Adjust margin as needed */
 }
